@@ -2,109 +2,116 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-   <style>
-    body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
-
-</head>
-
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portfolio</title>
+</head>   
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+<header class="intro-header" style="background-image: url('https://secure.static.tumblr.com/792b45073b89629fb70e307c9af99163/4mlgeiy/eFdn7sjxm/tumblr_static_tumblr_static_d0yhhhaz50084cc40scgg040k_640.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="site-heading">
-                        <h1>Katie's Portfolio</h1>
+                        <h1>katie gaudin</h1>
                         <hr class="small">
-                        <span class="subheading">Projects upon projects upon projects.</span>
+                        <span class="subheading">projects upon projects up on projects. with code.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-<div class="container">
-	 <div class="row">
-            <div class="col-sm-6">
-                <h2>Project 1</h2>
-                <p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
-                <p>
-                    <a class="btn btn-default btn-md" href="#">More Details &raquo;</a>
-                </p>
-               </div> 
-			<div class="col-sm-6">
-  			<img src="http://placehold.it/450x200">
-  		</div>	
-	</div>
 
-	<div class="row">
-			<div class="col-sm-6">
-  				<img src="http://placehold.it/450x200">
-  				</div>	
-            <div class="col-sm-6">
-                <h2>Project 2</h2>
-                <p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
-                <p>
-                    <a class="btn btn-default btn-md" href="#">More Details &raquo;</a>
-                </p>
-               </div> 
-			
-	</div>
+      <!-- TABS -->
+      <div class="tabs">
+        <div class="btn btn-default" id="Katie Gaudin" data-tab="contAboutMe">about me</div>
+        <div class="btn btn-default" id="projects">projects</div>
+        <div class="btn btn-default" id="contact">contact</div>
+      </div>
 
-	<div class="row">
-            <div class="col-sm-6">
-                <h2>Project 3</h2>
-                <p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
-                <p>
-                    <a class="btn btn-default btn-md" href="#">More Details &raquo;</a>
-                </p>
-               </div> 
-			<div class="col-sm-6">
-  			<img src="http://placehold.it/450x200">
-  		</div>	
-	</div>
+      <!-- TAB TEXT BLOCKS -->
+      <div id="contKatieGaudin">
+        <h3>Katie Gaudin</h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="http://placehold.it/350x200" class="img-responsive"/>
+          </div>
+          <div class="col-sm-6">
+            <!-- insert about me text -->
+          </div>
+        </div>
+      </div>
+      <div id="contProjects" style='display:none;'>
+        <h3>projects</h3>
+        <p><a class="btn btn-default btn-md" href="#">GitHub &raquo;</a></p>
+      </div>
+      <div id="contContact" style='display:none;'>
+            <div class="container">
+   <!-- Contact Form -->
 
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-center">Email me!</legend>
+    
+            <!-- Name input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Your name</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Jack" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your email</label>
+              <div class="col-md-9">
+                <input id="email" name="email" type="text" placeholder="anddiane@lifegoeson.com" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your message</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg" onclick="emailAlert()">Submit</button>
+
+                      <script>
+                          function emailAlert() {
+                          alert(message.value);
+                      }
+                      </script>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
 </div>
 
-
 </body>
+</html>
+
+
+
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,0 +1,41 @@
+
+
+div {
+    padding: 5px; 
+    position: relative;
+    text-align: left;
+}
+.pad {
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+.alRight {
+	text-align: right;
+}
+
+header.site-heading {
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 100px;
+}
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
